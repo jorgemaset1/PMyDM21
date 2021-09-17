@@ -1,6 +1,6 @@
 public class P1 {
     public static void main(String[] args) {
-    /*// sacar numero de e en dicha string
+    // sacar numero de e en dicha string
        String a = "albertofernandezsanchez";
        int cont = 0;
        for(int i=0; i<a.length(); i++){
@@ -11,11 +11,11 @@ public class P1 {
            }
        }
        System.out.println(cont);
- */
+
     //imprimir las palabras de un texto
     String a = "alb erto fer alf al7 dez dez alb san chez";
     String b = "";
-       /* for(int i=0; i<a.length(); i++)
+       for(int i=0; i<a.length(); i++)
         {
             if(a.charAt(i)== ' ')
             {
@@ -26,7 +26,7 @@ public class P1 {
             {
                 b = b+a.charAt(i);
             }
-        }*/
+        }
 
     // imprimir la lista de palabras de tamaño impar de un texto(split)
     String[] arrayA = a.split(" "); //iguala la string a un array separada por espacios

@@ -1,7 +1,8 @@
+import java.util.*;
 public class P1 {
     public static void main(String[] args) {
     // sacar numero de e en dicha string
-       String a = "albertofernandezsanchez";
+      /* String a = "albertofernandezsanchez";
        int cont = 0;
        for(int i=0; i<a.length(); i++){
 
@@ -34,12 +35,31 @@ public class P1 {
         if(arrayA[i].length()% 2 != 0) { //si el tamaño del array es impar lo imprime
             System.out.println(arrayA[i]);
         }
-    }
+    }*/
     // numero de palabras iguales
+      /* String a = "alb erto erto erto fer alf al7 dez dez alb san chez";
+        String[] arrayA = a.split(" ");
+        List alIguales = new ArrayList();
+        for (int i = 0; i < arrayA.length; i++)
+        {
+            for(int j = 0; j< arrayA.length;j++)
+            {
+                if(arrayA[i].equals(arrayA[j]) && !alIguales.contains(arrayA[i]) && (i!=j)) {
+                    alIguales.add(arrayA[i]);
+                }
+            }
+        }
+        System.out.println(alIguales.size());
+
+*/
 
 
     // sustituir las vocales por un 2 de las palabras que empiecen por al
+/*
+        String a = "alb erto fer alf al7 dez dez alb san chez";
+        String[] arrayA = a.split(" ");
 
+ */
 }
 }
 

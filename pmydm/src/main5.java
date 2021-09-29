@@ -27,7 +27,7 @@ public class main5 {
         // a b c d e SERIA EL MISMO que a b c e d
        ArrayList<List<String>> contenedorCartones = new ArrayList<>();
 
-        int nCartones = 20;
+        int nCartones = 5;
         for(int i = 0; i < nCartones; i++)
         {
             List<String> cartonI = generarCarton(marcas);
